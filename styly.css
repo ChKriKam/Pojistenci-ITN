@@ -1,0 +1,147 @@
+* {
+    color: rgb(15, 15, 2);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+  /**** reusable *****/
+  .row {
+    width: 1140px;
+    margin: 0 auto;
+  }
+
+
+  /******* Header *****/
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #d5e779;
+  }
+
+  #logo img{
+    width: 100px ;
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    margin-left: 23px;
+  }
+
+  nav ul {
+    float: right;
+    margin-top: 45px;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-right: 45px;
+  }
+
+  nav ul li a{
+    color:  rgb(51, 50, 52);
+    font-size: 15px;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: none;
+  }
+
+
+
+/****** Body *****/
+
+  body {
+    background-color: rgb(202, 216, 218);
+    margin: 0;
+  }
+
+
+/****** Form *******/
+  #insuranceForm {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
+  #insuranceForm h2 {
+    color: rgb(51, 50, 52);
+    text-align: left;
+    text-decoration: underline;
+    text-overflow: ellipsis;
+  }
+
+  #insuranceForm table {
+    color: #d5e779;
+    background-color: #d5e779;;
+    box-sizing:content-box;
+    width: 100%;border: solid #5B6DCD 10px;
+    padding: 15px;
+    width: 80%;
+    border: 2px solid #969692d6;
+  }
+
+  #insuranceForm input[type="text"],
+  #insuranceForm input[type="number"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  /***** Button *****/
+  #insuranceForm #create {
+    width: 30%;
+    background-color: #ddd;
+    color: #000;
+    padding: 14px 14px;
+    margin: 4px 0px;
+    border: #000;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: center;
+  }
+
+
+  /* Filled Form */
+  #insuranceList table {
+    width: 90%;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid #000;
+    margin: auto;
+  }
+
+  #insuranceList th,
+  #insuranceList td {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+    background-color: rgba(235, 227, 242, 0.628);
+  }
+  
+  #insuranceList thead tr,
+  #insuranceList tbody tr {
+    background-color: rgba(235, 227, 242, 0.628);
+  }
+
+  label.validation-error {
+    color: red;
+    margin-left: 5px;
+  } 
+
+
+
+  /***** Footer *****/
+
+  footer {
+    margin-top: 25px;
+    text-align: center;
+    font-size: smaller;
+  }
+

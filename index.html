@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styly.css"/>
+    <link rel="stylesheet" href="others/grid.css"/>
+    <title>Evidence pojištěnce</title>
+</head>
+
+<body> 
+    <!-- dej logo do zalozky a zmen nadpis nad tabulkou  na Evidence pojištěnce a misto textu nahore dej logo-->
+    
+
+    <header>
+            <div class="nav-bar row">
+
+                <div id="logo">
+                    <img src="pictures/logo pojisteni.png" alt="logo">
+                </div>
+                
+                <nav class="navigace">
+                    <ul>
+                        <li><a href="#">Vozidla</a></li>
+                        <li><a href="#">Majetek</a></li>
+                        <li><a href="#">Cestovní</a></li>
+                        <li><a href="#">Firmy</a></li>
+                        <li><a href="#">Kontakt</a></li>
+                    </ul>
+                </nav>
+
+             </div>
+    </header>
+       
+
+    <main>
+
+        <div id="insuranceForm">
+            <table>
+                <tr>
+                    <td>
+                        <h2>Evidence pojištěnce</h2>
+                        <form id="insuranceFormInsert">
+                            <div>
+                                Jméno: <input type="text" name="firstName" id="firstName">
+                            </div>
+                            <div>
+                                Příjmení <input type="text" name="surname" id="surname">
+                            </div>
+                            <div>
+                                Věk:<input type="text" name="age" id="age">
+                            </div>
+                            <div>
+                                Telefonní číslo:<input type="text" name="mobileNumber" id="mobileNumber">
+                            </div>
+                        </form>
+
+                            <div id="form-button">
+                                <button id="create">Vytvořit</button> 
+                            </div>      
+                    </td>
+                    <td>
+
+                        <div id="insuranceList">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Jméno</th>
+                                    <th>Příjmení</th>
+                                    <th>Věk</th>
+                                    <th>Telefon</th>
+                                </tr>
+                            </thead>
+                            <tbody id="insertTable"></tbody>
+                        </table>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </main>
+
+    <footer>
+        <div>
+        <p>Vytvořeno ke zkoušce pro IT network by KCHK</p>
+        </div>
+    </footer>
+
+
+</body>
+    <script src="js/client.js"></script>   
+    <script src="js/form.js"></script> 
+</html>
+
+
+
+
+
+
+
+
+
+<!-- pred zmenou **********
+<div class="header-wraper">
+    <header class="container">
+
+        <div class="logo">
+            <h2>Evidence pojištěnce</h2>
+        </div>
+        
+        <nav class="navigace">
+            <ul>
+                <li><a href="#">Vozidla</a></li>
+                <li><a href="#">Majetek</a></li>
+                <li><a href="#">Cestovní</a></li>
+                <li><a href="#">Firmy</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
